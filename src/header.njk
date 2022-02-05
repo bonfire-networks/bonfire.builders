@@ -6,10 +6,10 @@
   </div> 
   <div class="flex-none hidden lg:flex">
     <div class="flex items-stretch space-x-8">
-      <a href="/about" style="font-weight: 400" class="text-sm font-light btn btn-ghost rounded-btn">About</a> 
-      <a href="/work" style="font-weight: 400" class="text-sm font-light btn btn-ghost rounded-btn">work</a> 
-      <a style="font-weight: 400" class="text-sm font-light btn btn-ghost rounded-btn">Blog</a> 
-      <a href="/contact" style="font-weight: 400" class="text-sm font-light btn btn-ghost rounded-btn">Contact</a>
+      <a href="/about" class="{{ 'font-bold underline underline-offset-4 decoration-wavy decoration-2' if '/about' in page.url }} text-sm font-light btn btn-ghost rounded-btn">About</a> 
+      <a href="/work" class="{{ 'font-bold underline underline-offset-4 decoration-wavy decoration-2' if '/work' in page.url }} text-sm font-light btn btn-ghost rounded-btn">work</a> 
+      <a class="text-sm font-light btn btn-ghost rounded-btn">Blog</a> 
+      <a href="/contact" class="{{ 'font-bold underline underline-offset-4 decoration-wavy decoration-2' if '/contact' in page.url }} text-sm font-light btn btn-ghost rounded-btn">Contact</a>
     </div>
   </div> 
 </div>
