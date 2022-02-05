@@ -12,7 +12,7 @@
     <div class="flex items-stretch space-x-8">
       <a href="/about" class="{{ 'font-bold underline underline-offset-4 decoration-wavy decoration-2' if '/about' in page.url }} text-sm font-light btn btn-ghost rounded-btn">About</a> 
       <a href="/work" class="{{ 'font-bold underline underline-offset-4 decoration-wavy decoration-2' if '/work' in page.url }} text-sm font-light btn btn-ghost rounded-btn">work</a> 
-      <a class="text-sm font-light btn btn-ghost rounded-btn">Blog</a> 
+      <a href="https://bonfirenetworks.org/blog" target="blank" class="text-sm font-light btn btn-ghost rounded-btn">Blog</a> 
       <a href="/contact" class="{{ 'font-bold underline underline-offset-4 decoration-wavy decoration-2' if '/contact' in page.url }} text-sm font-light btn btn-ghost rounded-btn">Contact</a>
     </div>
   </div>
@@ -37,7 +37,7 @@
     <div class="px-2 pt-2 pb-3 space-y-1">    
       <a href="/about" class="{{ 'bg-gray-900 text-white' if '/about' in page.url }} text-gray-300 block px-3 py-2 rounded-md text-base font-medium" x-state:on="Current" x-state:off="Default" aria-current="page">About</a>  
       <a href="/work" class="{{ 'bg-gray-900 text-white' if '/work' in page.url }} text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Work</a>  
-      <a href="https://bonfirenetworks.org/blog" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>  
+      <a href="https://bonfirenetworks.org/blog" target="blank" class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Blog</a>  
       <a href="/contact" class="{{ 'bg-gray-900 text-white' if '/contact' in page.url }} text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contact</a>  
     </div>
   </div>
