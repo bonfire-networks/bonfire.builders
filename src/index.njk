@@ -7,9 +7,9 @@ layout: layouts/base.njk
   {% include "./header.njk" %} 
   <div class="relative z-20 grid items-start max-w-screen-lg px-6 lg:px-0 grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 py-6  lg:py-24 mx-auto">
     <div class="">
-      <h1 class="font-serif text-5xl font-black tracking-wide">We’re a software house for the cooperative economy</h1>
-      <div class="mt-4 text-lg font-light prose">We are a small team of designers, developers and artists working on open and federated technology. We focus on empowering our clients with libre tools that they feel confident to use, customize, and adapt to their everyday evolving needs.</div>
-      <a href="#contact" class="mt-8 btn btn-outline">Get in touch</a>
+      <h1 class="font-serif text-4xl font-black tracking-wide">A software house for the cooperative economy</h1>
+      <div class="mt-4 text-lg font-light prose">We are a small team of designers, developers, and other creatives working on open and federated technology. Our focus is empowering users with <span class="tooltip underline decoration-dashed" data-tip="libre: free and open source software">libre <span class="hidden">/ free and open source</span></span> tools that they feel confident to use, customize, and adapt to their diverse and evolving needs.</div>
+      <a href="#contact" class="mt-8 btn btn-accent">Get in touch</a>
     </div>
     <div class="h-[420px] border border-base-content"></div>
   </div>
@@ -17,24 +17,24 @@ layout: layouts/base.njk
 </div>
 
 <div class="relative z-20 max-w-screen-lg mx-auto my-24 lg:my-32 px-6 xl:px-0">
-  <h2 class="font-serif text-3xl font-black tracking-wide">We support you on every step</h2>
-  <div class="max-w-screen-sm mt-4 text-lg font-light prose">From ideation to deployment, maintainance and training we deal with the whole product lifecycle with you. We work openly, documenting and sharing every step of our processes, to empower our clients with autonomy and self-management over the tools we develop.</div>
+  <h2 class="font-serif text-3xl font-black tracking-wide">Supporting you at every step</h2>
+  <div class="max-w-screen-sm mt-4 text-lg font-light prose">From ideation to deployment, maintainance and training we help you with the whole product lifecycle. We work openly, documenting and sharing every step of our processes, to empower you and your users with autonomy and self-management over the tools we build.</div>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8">
     <div>
       <div class="p-[50%] border border-base-content"></div>
-      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Product design</div>
+      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Product & Service Design</div>
     </div>
     <div>
       <div class="p-[50%] border border-base-content"></div>
-      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Engineering</div>
+      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Software Engineering</div>
     </div>
     <div>
       <div class="p-[50%] border border-base-content"></div>
-      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Training & Support</div>
+      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Documentation & Training </div>
     </div>
     <div>
       <div class="p-[50%] border border-base-content"></div>
-      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content">Service Design</div>
+      <div class="mt-2 font-serif text-lg font-bold text-center text-base-content"> Hosting & Support</div>
     </div>
   </div>
 </div>
@@ -42,14 +42,19 @@ layout: layouts/base.njk
 <div class="relative z-20 max-w-screen-lg px-6 lg:px-0 mx-auto my-16 lg:my-32">
   <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
     <div>
-      <h2 class="font-serif text-3xl font-black tracking-wide">Develop your next platform with us</h2>
-      <div class="mt-4 text-lg font-light prose">Wheter you want to start a platform cooperative, or create a tool for you community, we can support you on your new mission. </div>
+      <h2 class="font-serif text-3xl font-black tracking-wide">Build your next app with us</h2>
+      <div class="mt-4 text-lg font-light prose">Whether you want to start a new global platform co-op, explore better ways for your organisation to coordinate and communicate with its network, or create a small tool for your community, we can support your mission. </div>
       <div class="bg-[#E0ECF1] rounded-box p-8 mt-6">
-        <div class="text-xl font-bold">Sharing is Caring</div>
+        <div class="text-xl font-bold">Experts on call</div>
         <div class="mt-3 text-base prose">
-          We’re not alone! whatever you need specific skills that we miss, we have plenty of friends in the ecosystem that we love to work with.
+          We leverage our acquired experience to develop apps that suit the most tailored needs.
         </div>
-        <a href="/about/#friends" class="mt-6 btn btn-outline">See our friends</a>
+        <a href="/about/#friends" class="mt-2 btn btn-sm btn-accent">See our people</a>
+        <div class="text-xl font-bold mt-6">Sharing is caring</div>
+        <div class="mt-3 text-base prose">
+          We’re not alone though! Whenever specific skills are needed, we call upon friends in the ecosystem that we love to work with. 
+        </div>
+        <a href="/about/#friends" class="mt-2 btn btn-sm btn-accent">People we've worked with</a>
       </div>
     </div>
 
@@ -59,8 +64,8 @@ layout: layouts/base.njk
           <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
         </svg>
         <div class="flex-1">
-          <div class="text-lg font-bold text-base-content">From ideation to maintainance</div>
-          <div class="mt-2 text-base prose text-base-content">Workshops and co-design sessions are keys to deliver human-centric solutions. We always look at humans first - trying to ease all the invisible work.</div>
+          <div class="text-lg font-bold text-base-content">From ideation to maintenance</div>
+          <div class="mt-2 text-base prose text-base-content">Workshops and co-design sessions are key to delivering human-centric solutions. We always look to the people and their needs rather than just problems and solutions.</div>
         </div>
       </div>
 
@@ -70,7 +75,7 @@ layout: layouts/base.njk
         </svg>
         <div class="flex-1">
           <div class="text-lg font-bold text-base-content">Full stack development</div>
-          <div class="mt-2 text-base prose text-base-content">We’ve a straightforward approach to build applications from the ground up, which minimize unexpected events and delays.</div>
+          <div class="mt-2 text-base prose text-base-content">We have a straightforward approach to developing applications from the ground up (with a team simultaneously building out all aspects of the app using a single programming language, from the database all the way to the UI) which minimises unexpected issues and delays.</div>
         </div>
       </div>
 
@@ -79,8 +84,8 @@ layout: layouts/base.njk
           <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
         </svg>
         <div class="flex-1">
-          <div class="text-lg font-bold text-base-content">Usability and Accessibility first</div>
-          <div class="mt-2 text-base prose text-base-content">We  build tools that respect people’s time and effort, and are fully accessible and functional, user-friendly, convenient, reliable, and beautiful.</div>
+          <div class="text-lg font-bold text-base-content">Usability and accessibility first</div>
+          <div class="mt-2 text-base prose text-base-content">Our tools respect people’s time and effort, and are fully accessible and functional, user-friendly, convenient, reliable, and beautiful.</div>
         </div>
       </div>
 
@@ -90,31 +95,15 @@ layout: layouts/base.njk
         </svg>
         <div class="flex-1">
           <div class="text-lg font-bold text-base-content">Documenting every step</div>
-          <div class="mt-2 text-base prose text-base-content">Each project comes with a cookbook and a documentation to entice and allow others to put their hands upon it with confidence.</div>
+          <div class="mt-2 text-base prose text-base-content">Each project comes with a cookbook and documentation to entice and empower others to both use and adapt it with confidence.</div>
         </div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="relative z-20 max-w-screen-lg mx-6  p-8 lg:mx-auto mt-16 lg:mt-32 mb-16 bg-slate-800 rounded-box">
-  <div class="grid lg:grid-cols-2 grid-cols-1 gap-12 lg:gap-24">
-    <div class="">
-      <div class="text-xs font-bold uppercase text-slate-200 ">A MODULAR FRAMEWORK READY TO LIGHT UP</div>
-      <div class="mt-3 font-serif text-3xl font-black text-slate-200">We're building bonfire</div>
-      <div class="mt-6 text-base prose text-slate-200">Bonfire is an open source framework to build powerful and extensible platforms for communities. </div>
-      <a href="https://bonfirenetworks.org" target="blank" class="mt-6 underline font-bold text-base text-slate-200 inline-block">Check bonfire</a>
-    </div>
-    <div class="bg-cover lg:h-[350px] h-[180px] bg-no-repeat bg-center bg-[url('/img/bonfire-hills.png')]"></div>
-  </div>
-</div>
-
-<div class="relative flex flex-col items-center place-content-center z-20 max-w-screen-lg p-8 mx-6 lg:mx-auto  bg-[#E0ECF1] rounded-box">
-  <div class="mt-6 font-serif text-3xl font-black text-center">We support open source work</div>
-  <div class="max-w-screen-md mx-auto mt-6 text-base prose text-center">We put aside 5% of our revenue to directly support the creators and maintainers of commons tools, libraries, infrastructure, art, or content that we rely on.</div>
-  <a href="#" class="mx-auto mt-6 mb-6 btn">See donations</a>
-</div>
-
-  {% include "./contact-form.njk" %}
-  {% include "./footer.njk" %} 
+{% include "./bonfire.njk" %}
+{% include "./foss.njk" %}
+{% include "./contact-form.njk" %}
+{% include "./footer.njk" %} 
 

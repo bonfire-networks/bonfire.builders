@@ -30,9 +30,7 @@
     "html-minifier": "^4.0.0",
     "md5": "^2.3.0",
     "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.7"
-  },
-  "dependencies": {
+    "tailwindcss": "^3.0.7",
     "daisyui": "^1.25.4"
   }
 }

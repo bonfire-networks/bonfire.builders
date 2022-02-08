@@ -5,7 +5,8 @@
 ## Stack
 
 * TailwindCSS v3
-* Apline.js v3
+* Alpine.js v3
+* DaisyUI v1
 
 ## Install
 
