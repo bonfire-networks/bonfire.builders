@@ -5,7 +5,7 @@ layout: layouts/base.njk
 ---
 <div class="bg-[#E0ECF1] relative">
   {% include "./header.njk" %} 
-  <div class="relative z-20 grid items-start max-w-screen-lg px-6 lg:px-0 grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 py-6  lg:py-24 mx-auto">
+  <div class="relative z-20 grid items-start max-w-screen-lg px-6 lg:px-0 grid-cols-1 lg:grid-cols-2 gap-12 xl:gap-24 py-6 lg:pt-24 lg:pb-12 mx-auto">
     <div class="">
       <h1 class="font-serif text-4xl font-black tracking-wide">A software house for the cooperative economy</h1>
       <div class="mt-4 text-lg font-light prose">We are a small team of designers, developers, and other creatives working on open and federated technology. Our focus is empowering users with <span class="tooltip underline decoration-dashed" data-tip="libre: free and open source software">libre <span class="hidden">/ free and open source</span></span> tools that they feel confident to use, customize, and adapt to their diverse and evolving needs.</div>
@@ -13,10 +13,10 @@ layout: layouts/base.njk
     </div>
     <div class="h-[420px] border border-base-content"></div>
   </div>
-  <div class="bg-[url('../../img/wave.svg')] z-10 bg-cover bg-center bg-no-repeat aspect-[960/300] absolute -bottom-[90] lg:-bottom-[200px] left-0 right-0 w-full"></div>
+  <div class="bg-[url('../../img/wave.svg')] z-10 bg-cover bg-center bg-no-repeat aspect-[960/300] absolute left-0 right-0 w-full"></div>
 </div>
 
-<div class="relative z-20 max-w-screen-lg mx-auto my-24 lg:my-32 px-6 xl:px-0">
+<div class="relative z-20 max-w-screen-lg mx-auto my-24 lg:my-40 px-6 xl:px-0">
   <h2 class="font-serif text-3xl font-black tracking-wide">Supporting you at every step</h2>
   <div class="max-w-screen-sm mt-4 text-lg font-light prose">From ideation to deployment, maintainance and training we help you with the whole product lifecycle. We work openly, documenting and sharing every step of our processes, to empower you and your users with autonomy and self-management over the tools we build.</div>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-8">
@@ -50,7 +50,9 @@ layout: layouts/base.njk
           We leverage our acquired experience to develop apps that suit the most tailored needs.
         </div>
         <a href="/about/#friends" class="mt-2 btn btn-sm btn-accent">See our people</a>
-        <div class="text-xl font-bold mt-6">Sharing is caring</div>
+      </div>
+      <div class="bg-[#E0ECF1] rounded-box p-8 mt-6">
+        <div class="text-xl font-bold">Sharing is caring</div>
         <div class="mt-3 text-base prose">
           We’re not alone though! Whenever specific skills are needed, we call upon friends in the ecosystem that we love to work with. 
         </div>
