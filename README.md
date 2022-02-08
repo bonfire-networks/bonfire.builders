@@ -1,6 +1,6 @@
 # Bonfire Builders 
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yhaefliger/yatas)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bonfire-networks/bonfire.builders)
 
 ## Stack
 
