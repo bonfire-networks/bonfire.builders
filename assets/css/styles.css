@@ -4,7 +4,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@keyframes gradient {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .animate-gradient {
+    animation: gradient 15s linear infinite;
+  }
 
+  @keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .5; }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
 .background-grid {
     position: fixed;
     top: 0;
