@@ -44,15 +44,15 @@ layout: layouts/base.njk
           <div class="text-base text-base-content/80 mt-2">Track engagement and performance with comprehensive metrics, all while maintaining visitor privacy—no more cookie banners required!</div>
         </div>
       </div>
-      <div>
-        <div style="background-image: url(./img/landing2.png)" class="bg-no-repeat bg-cover h-full w-full bg-center rounded-r-xl"></div>
+      <div class="order-first lg:order-last">
+        <div style="background-image: url(./img/landing2.png)" class="bg-no-repeat bg-cover h-[300px] lg:h-full w-full bg-center rounded-xl lg:lg:rounded-r-xl"></div>
       </div>
     </li>
     
     <li class="group relative card bg-base-100 grid lg:grid-cols-2 gap-4 !h-auto !bg-base-100 border border-base-content/20 rounded-xl !w-full">
       <div class="card-mosaic group-hover:opacity-50 absolute inset-0"></div>
       <div>
-        <div style="background-image: url(./img/social.png)" class="bg-no-repeat bg-cover h-full w-full bg-center  rounded-l-xl"></div>
+        <div style="background-image: url(./img/social.png)" class="bg-no-repeat bg-cover h-[300px] lg:h-full w-full bg-center rounded-xl lg:rounded-l-xl"></div>
       </div>
       <div class="px-8 pb-8 p-4">
         <div class="mt-2 font-serif text-3xl font-bold  text-base-content">A Federated Social Network</div>
@@ -92,8 +92,8 @@ layout: layouts/base.njk
           <div class="text-base text-base-content/80 mt-2"> Email updates that can include articles, social posts, and custom content, helping to keep your audience informed and engaged.</div>
         </div>
       </div>
-      <div>
-        <div style="background-image: url(./img/communication.png)" class="bg-no-repeat bg-cover  h-full w-full bg-center shadow-xl rounded-r-xl"></div>
+      <div class="order-first lg:order-last">
+        <div style="background-image: url(./img/communication.png)" class="bg-no-repeat bg-cover h-[300px] lg:h-full w-full bg-center rounded-xl lg:rounded-r-xl"></div>
       </div>
     </li>
   </ul>  
@@ -124,7 +124,7 @@ layout: layouts/base.njk
         <div class="absolute top-1/2 right-0 w-1 h-12 bg-white/40 rounded-l-full transform -translate-y-1/2"></div> #}
       </div>
     </div>
-    <span class="absolute bottom-6 left-3 right-3">
+    <span class="p-4">
       <div class="mt-2 font-serif text-2xl font-bold text-center text-base-content">Cost-Effective Unified Platform</div>
       <div class="text-lg mt-2 text-base-content/80 text-center">Manage your website and social network from a single dashboard, consolidating multiple tools to streamline digital strategy and operations while significantly reducing development and maintenance expenses.</div>
     </span>
@@ -147,7 +147,7 @@ layout: layouts/base.njk
         <div class="absolute top-1/2 right-0 w-1 h-12 bg-white/40 rounded-l-full transform -translate-y-1/2"></div> #}
       </div>
     </div>
-    <span class="absolute bottom-6 left-3 right-3">
+    <span class="p-4">
       <div class="mt-2 font-serif text-2xl font-bold text-center text-base-content">Enhanced Engagement</div>
       <div class="text-lg mt-2 text-base-content/80 text-center">Build a vibrant community and expand your reach by seamlessly connecting with the Fediverse, fostering active participation and visibility.</div>
     </span>
@@ -170,7 +170,7 @@ layout: layouts/base.njk
         <div class="absolute top-1/2 right-0 w-1 h-12 bg-white/40 rounded-l-full transform -translate-y-1/2"></div> #}
       </div>
     </div>
-    <span class="absolute bottom-6 left-3 right-3">
+    <span class="p-4">
       <div class="mt-2 font-serif text-2xl font-bold text-center text-base-content">Productivity without compromises</div>
       <div class="text-lg mt-2 text-base-content/80 text-center">Ensure the platform is accessible to anyone, with user-friendly design and standards-based features and APIs that support interoperability across various technologies.</div>
     </span>
@@ -193,7 +193,7 @@ layout: layouts/base.njk
         <div class="absolute top-1/2 right-0 w-1 h-12 bg-white/40 rounded-l-full transform -translate-y-1/2"></div> #}
       </div>
     </div>
-    <span class="absolute bottom-6 left-3 right-3">
+    <span class="p-4">
       <div class="mt-2 font-serif text-2xl font-bold text-center text-base-content">Data Sovereignty</div>
       <div class="text-lg mt-2 text-base-content/80 text-center">Choose self-hosting or our coop-hosting service to retain control over your data. Enable users to interact from anywhere while retaining ownership of their data.</div>
     </span>
@@ -227,7 +227,7 @@ layout: layouts/base.njk
   {# <li class="relative group card bg-base-100 border border-base-content/20 rounded-xl !w-full">
     <div class="card-mosaic group-hover:opacity-50 absolute inset-0"></div>
     <div class="h-[350px] w-full block"></div>
-    <span class="absolute bottom-6 left-3 right-3">
+    <span class="p-4">
       <div class="mt-2 font-serif text-2xl font-bold text-center text-base-content">Accessibility & Interoperability</div>
       <div class="text-lg mt-2 text-base-content/80 text-center">Ensure the platform is accessible to anyone, with user-friendly design and standards-based features and APIs that support interoperability across various technologies.</div>
     </span>
